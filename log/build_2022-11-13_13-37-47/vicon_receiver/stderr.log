@@ -1,0 +1,13 @@
+[01m[K/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/vicon_receiver/publisher.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KDataStreamClient.h: No such file or directory
+    2 | #include [01;31m[K"DataStreamClient.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/vicon_client.dir/build.make:76: CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/vicon_receiver/communicator.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KDataStreamClient.h: No such file or directory
+    2 | #include [01;31m[K"DataStreamClient.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/vicon_client.dir/build.make:63: CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

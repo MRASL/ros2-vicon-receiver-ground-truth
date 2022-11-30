@@ -1,0 +1,20 @@
+[  8%] Built target vicon_receiver__cpp
+[ 11%] Built target vicon_receiver__rosidl_generator_c
+[ 20%] Built target vicon_receiver__rosidl_typesupport_c
+[ 29%] Built target vicon_receiver__rosidl_typesupport_cpp
+[ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[ 47%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[ 64%] Built target vicon_receiver
+[ 67%] Built target vicon_receiver__py
+[ 70%] [32m[1mLinking CXX executable vicon_client[0m
+[ 76%] Built target vicon_receiver__python
+[ 88%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[ 88%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+/usr/bin/ld: cannot find -lViconDataStreamSDK_CPP
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/vicon_client.dir/build.make:158: vicon_client] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

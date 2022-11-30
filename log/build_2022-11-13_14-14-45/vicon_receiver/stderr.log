@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/vicon_receiver/communicator.cpp', needed by 'CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver -- -j8 -l8
+[0.066s] [  8%] Built target vicon_receiver__cpp
+[0.066s] [ 11%] Built target vicon_receiver__rosidl_generator_c
+[0.085s] [ 38%] Built target vicon_receiver__rosidl_typesupport_c
+[0.086s] [ 38%] Built target vicon_receiver__rosidl_typesupport_cpp
+[0.086s] [ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[0.088s] [ 47%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[0.106s] [ 55%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[0.110s] [ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[0.133s] [ 64%] Built target vicon_receiver
+[0.147s] [35m[1mScanning dependencies of target vicon_client[0m
+[0.155s] [ 67%] Built target vicon_receiver__py
+[0.178s] [ 73%] Built target vicon_receiver__python
+[0.200s] [ 91%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[0.200s] [ 91%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[0.200s] [ 91%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+[0.241s] [ 97%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o[0m
+[0.241s] [ 97%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o[0m
+[2.020s] [01m[K/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/vicon_receiver/publisher.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KDataStreamClient.h: No such file or directory
+[2.020s]     2 | #include [01;31m[K"DataStreamClient.h"[m[K
+[2.020s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.020s] compilation terminated.
+[2.058s] make[2]: *** [CMakeFiles/vicon_client.dir/build.make:76: CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o] Error 1
+[2.058s] make[2]: *** Waiting for unfinished jobs....
+[3.662s] [01m[K/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/vicon_receiver/communicator.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KDataStreamClient.h: No such file or directory
+[3.663s]     2 | #include [01;31m[K"DataStreamClient.h"[m[K
+[3.663s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.663s] compilation terminated.
+[3.668s] make[2]: *** [CMakeFiles/vicon_client.dir/build.make:63: CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o] Error 1
+[3.668s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+[3.668s] make: *** [Makefile:141: all] Error 2
+[3.671s] Invoked command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver -- -j8 -l8

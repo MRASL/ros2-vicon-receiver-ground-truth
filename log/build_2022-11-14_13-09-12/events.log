@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (vicon_receiver) JobQueued: {'identifier': 'vicon_receiver', 'dependencies': OrderedDict()}
+[0.000419] (vicon_receiver) JobStarted: {'identifier': 'vicon_receiver'}
+[0.014232] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'cmake'}
+[0.015056] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'build'}
+[0.015847] (vicon_receiver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver', '--', '-j8', '-l8'], 'cwd': '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hsiutsu'), ('SSH_AGENT_PID', '2256'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface/lib:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/hsiutsu'), ('OLDPWD', '/home/hsiutsu/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2083'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hsiutsu/ros2_ws/install:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install:/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'hsiutsu'), ('JOURNAL_STREAM', '8:42921'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsiutsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hsiutsu-XPS-8800:@/tmp/.ICE-unix/2291,unix/hsiutsu-XPS-8800:/tmp/.ICE-unix/2291'), ('INVOCATION_ID', 'f19104c6668b42a3bee320adaa2a9198'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6783dbe_1ebe_4b01_a877_67553689459c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface/lib/python3.8/site-packages:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver:/opt/ros/galactic')]), 'shell': False}
+[0.071049] (vicon_receiver) StdoutLine: {'line': b'[  8%] Built target vicon_receiver__cpp\n'}
+[0.071338] (vicon_receiver) StdoutLine: {'line': b'[ 11%] Built target vicon_receiver__rosidl_generator_c\n'}
+[0.091322] (vicon_receiver) StdoutLine: {'line': b'[ 32%] Built target vicon_receiver__rosidl_typesupport_c\n'}
+[0.091637] (vicon_receiver) StdoutLine: {'line': b'[ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp\n'}
+[0.091766] (vicon_receiver) StdoutLine: {'line': b'[ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_c\n'}
+[0.099296] (-) TimerEvent: {}
+[0.111096] (vicon_receiver) StdoutLine: {'line': b'[ 47%] Built target vicon_receiver__rosidl_typesupport_cpp\n'}
+[0.114308] (vicon_receiver) StdoutLine: {'line': b'[ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp\n'}
+[0.142659] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c\n'}
+[0.166300] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target vicon_receiver\n'}
+[0.176962] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_client\x1b[0m\n'}
+[0.185023] (vicon_receiver) StdoutLine: {'line': b'[ 67%] Built target vicon_receiver__py\n'}
+[0.199396] (-) TimerEvent: {}
+[0.207886] (vicon_receiver) StdoutLine: {'line': b'[ 73%] Built target vicon_receiver__python\n'}
+[0.214714] (vicon_receiver) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/vicon_client.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.232624] (vicon_receiver) StdoutLine: {'line': b'[ 88%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext\n'}
+[0.232905] (vicon_receiver) StdoutLine: {'line': b'[ 88%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.233040] (vicon_receiver) StdoutLine: {'line': b'[ 94%] Built target vicon_receiver__rosidl_typesupport_c__pyext\n'}
+[0.299501] (-) TimerEvent: {}
+[0.399847] (-) TimerEvent: {}
+[0.500230] (-) TimerEvent: {}
+[0.600577] (-) TimerEvent: {}
+[0.700905] (-) TimerEvent: {}
+[0.801217] (-) TimerEvent: {}
+[0.901559] (-) TimerEvent: {}
+[1.001872] (-) TimerEvent: {}
+[1.102215] (-) TimerEvent: {}
+[1.202530] (-) TimerEvent: {}
+[1.302854] (-) TimerEvent: {}
+[1.403180] (-) TimerEvent: {}
+[1.503483] (-) TimerEvent: {}
+[1.603815] (-) TimerEvent: {}
+[1.704128] (-) TimerEvent: {}
+[1.804459] (-) TimerEvent: {}
+[1.904770] (-) TimerEvent: {}
+[2.005078] (-) TimerEvent: {}
+[2.105460] (-) TimerEvent: {}
+[2.205842] (-) TimerEvent: {}
+[2.306210] (-) TimerEvent: {}
+[2.406604] (-) TimerEvent: {}
+[2.506960] (-) TimerEvent: {}
+[2.607293] (-) TimerEvent: {}
+[2.707633] (-) TimerEvent: {}
+[2.807997] (-) TimerEvent: {}
+[2.908339] (-) TimerEvent: {}
+[3.008696] (-) TimerEvent: {}
+[3.109047] (-) TimerEvent: {}
+[3.209373] (-) TimerEvent: {}
+[3.309699] (-) TimerEvent: {}
+[3.410043] (-) TimerEvent: {}
+[3.510382] (-) TimerEvent: {}
+[3.610748] (-) TimerEvent: {}
+[3.711136] (-) TimerEvent: {}
+[3.811505] (-) TimerEvent: {}
+[3.911831] (-) TimerEvent: {}
+[4.012161] (-) TimerEvent: {}
+[4.112471] (-) TimerEvent: {}
+[4.212806] (-) TimerEvent: {}
+[4.313121] (-) TimerEvent: {}
+[4.413452] (-) TimerEvent: {}
+[4.513792] (-) TimerEvent: {}
+[4.614147] (-) TimerEvent: {}
+[4.714140] (vicon_receiver) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable vicon_client\x1b[0m\n'}
+[4.714394] (-) TimerEvent: {}
+[4.814664] (-) TimerEvent: {}
+[4.914949] (-) TimerEvent: {}
+[4.947171] (vicon_receiver) StdoutLine: {'line': b'[100%] Built target vicon_client\n'}
+[4.957820] (vicon_receiver) CommandEnded: {'returncode': 0}
+[5.005869] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'install'}
+[5.015110] (-) TimerEvent: {}
+[5.018490] (vicon_receiver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver'], 'cwd': '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hsiutsu'), ('SSH_AGENT_PID', '2256'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface/lib:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/hsiutsu'), ('OLDPWD', '/home/hsiutsu/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2083'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hsiutsu/ros2_ws/install:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install:/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'hsiutsu'), ('JOURNAL_STREAM', '8:42921'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsiutsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hsiutsu-XPS-8800:@/tmp/.ICE-unix/2291,unix/hsiutsu-XPS-8800:/tmp/.ICE-unix/2291'), ('INVOCATION_ID', 'f19104c6668b42a3bee320adaa2a9198'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6783dbe_1ebe_4b01_a877_67553689459c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface/lib/python3.8/site-packages:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/hsiutsu/ros2_ws/src/Vicon-ROS2/src/install/nexus_interface:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver:/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver:/opt/ros/galactic')]), 'shell': False}
+[5.026511] (vicon_receiver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.027203] (vicon_receiver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.027613] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/rosidl_interfaces/vicon_receiver\n'}
+[5.028345] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__functions.h\n'}
+[5.028570] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__struct.h\n'}
+[5.028778] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__type_support.h\n'}
+[5.029019] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/position.h\n'}
+[5.029217] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.029602] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/library_path.sh\n'}
+[5.029950] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/library_path.dsv\n'}
+[5.030668] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[5.030848] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.031360] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_c.so\n'}
+[5.031939] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.032099] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.032528] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.033029] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[5.033199] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.033694] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__builder.hpp\n'}
+[5.033847] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__struct.hpp\n'}
+[5.034045] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__traits.hpp\n'}
+[5.034215] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/position.hpp\n'}
+[5.034691] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/include/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.034979] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.sh\n'}
+[5.035243] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.dsv\n'}
+[5.035528] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages/vicon_receiver/__init__.py\n'}
+[5.036035] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages/vicon_receiver/msg/__init__.py\n'}
+[5.036192] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages/vicon_receiver/msg/_position.py\n'}
+[5.036616] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.037056] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.037484] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.037894] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__python.so\n'}
+[5.038177] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/msg/Position.idl\n'}
+[5.038456] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/msg/Position.msg\n'}
+[5.038835] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/vicon_receiver/vicon_client\n'}
+[5.039349] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver//launch/client.launch.py\n'}
+[5.039640] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/package_run_dependencies/vicon_receiver\n'}
+[5.039934] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/parent_prefix_path/vicon_receiver\n'}
+[5.040189] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.sh\n'}
+[5.040463] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.dsv\n'}
+[5.040724] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/path.sh\n'}
+[5.040997] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/path.dsv\n'}
+[5.041251] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.bash\n'}
+[5.041570] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.sh\n'}
+[5.041798] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.zsh\n'}
+[5.042073] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.dsv\n'}
+[5.042277] (vicon_receiver) StdoutLine: {'line': b'-- Symlinking: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.dsv\n'}
+[5.051176] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/packages/vicon_receiver\n'}
+[5.051722] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake-extras.cmake\n'}
+[5.052191] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.052657] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.053132] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.053609] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.054082] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.054555] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.055102] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig.cmake\n'}
+[5.055397] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig-version.cmake\n'}
+[5.055860] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.xml\n'}
+[5.056371] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_c.so\n'}
+[5.057086] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_c.so\n'}
+[5.057780] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_c.so\n'}
+[5.058539] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_cpp.so\n'}
+[5.059281] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_cpp.so\n'}
+[5.085959] (vicon_receiver) StdoutLine: {'line': b"Compiling '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages/vicon_receiver/__init__.py'...\n"}
+[5.089185] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_generator_cExport.cmake\n'}
+[5.089397] (vicon_receiver) StdoutLine: {'line': b'-- Installing: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.089599] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.089735] (vicon_receiver) StdoutLine: {'line': b'-- Installing: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.089952] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport.cmake\n'}
+[5.090106] (vicon_receiver) StdoutLine: {'line': b'-- Installing: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.090323] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_generator_cppExport.cmake\n'}
+[5.090538] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.090652] (vicon_receiver) StdoutLine: {'line': b'-- Installing: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.090832] (vicon_receiver) StdoutLine: {'line': b'-- Up-to-date: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport.cmake\n'}
+[5.091016] (vicon_receiver) StdoutLine: {'line': b'-- Installing: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.093011] (vicon_receiver) CommandEnded: {'returncode': 0}
+[5.115235] (-) TimerEvent: {}
+[5.180647] (vicon_receiver) JobEnded: {'identifier': 'vicon_receiver', 'rc': 0}
+[5.181518] (-) EventReactorShutdown: {}

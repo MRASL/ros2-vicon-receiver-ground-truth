@@ -1,0 +1,119 @@
+[1.850s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.851s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcea8c2a850>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcea8c2a850>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcea8c2adc0>)
+[2.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.200s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.252s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'vicon_receiver'
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.349s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/galactic
+[2.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.993s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'cmake_args' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'cmake_target' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'cmake_clean_first' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'cmake_force_configure' from command line to 'False'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'ament_cmake_args' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.994s] Level 5:colcon.colcon_core.verb:set package 'vicon_receiver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.994s] DEBUG:colcon.colcon_core.verb:Building package 'vicon_receiver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver', 'merge_install': False, 'path': '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver', 'symlink_install': True, 'test_result_base': None}
+[2.994s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.998s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver' with build type 'ament_cmake'
+[2.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver'
+[3.069s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver -- -j8 -l8
+[4.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver -- -j8 -l8
+[4.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver
+[4.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicon_receiver)
+[4.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver' for CMake module files
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver' for CMake config files
+[4.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicon_receiver', 'cmake_prefix_path')
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/cmake_prefix_path.ps1'
+[4.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/cmake_prefix_path.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/cmake_prefix_path.sh'
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib'
+[4.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicon_receiver', 'ld_library_path_lib')
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/ld_library_path_lib.ps1'
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/ld_library_path_lib.dsv'
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/ld_library_path_lib.sh'
+[4.316s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/bin'
+[4.316s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib/pkgconfig/vicon_receiver.pc'
+[4.316s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages'
+[4.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicon_receiver', 'pythonpath')
+[4.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/pythonpath.ps1'
+[4.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/pythonpath.dsv'
+[4.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/pythonpath.sh'
+[4.318s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/bin'
+[4.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.ps1'
+[4.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.dsv'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.sh'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.bash'
+[4.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.zsh'
+[4.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/colcon-core/packages/vicon_receiver)
+[4.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicon_receiver)
+[4.388s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver' for CMake module files
+[4.389s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver' for CMake config files
+[4.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicon_receiver', 'cmake_prefix_path')
+[4.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/cmake_prefix_path.ps1'
+[4.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/cmake_prefix_path.dsv'
+[4.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/cmake_prefix_path.sh'
+[4.392s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib'
+[4.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicon_receiver', 'ld_library_path_lib')
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/ld_library_path_lib.ps1'
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/ld_library_path_lib.dsv'
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/ld_library_path_lib.sh'
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/bin'
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib/pkgconfig/vicon_receiver.pc'
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/lib/python3.8/site-packages'
+[4.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicon_receiver', 'pythonpath')
+[4.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/pythonpath.ps1'
+[4.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/pythonpath.dsv'
+[4.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/hook/pythonpath.sh'
+[4.397s] Level 1:colcon.colcon_core.environment:checking '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/bin'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.ps1'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.dsv'
+[4.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.sh'
+[4.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.bash'
+[4.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.zsh'
+[4.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver/share/colcon-core/packages/vicon_receiver)
+[4.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.401s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.433s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.433s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.451s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/local_setup.ps1'
+[4.453s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/_local_setup_util_ps1.py'
+[4.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/setup.ps1'
+[4.456s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/local_setup.sh'
+[4.457s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/_local_setup_util_sh.py'
+[4.457s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/setup.sh'
+[4.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/local_setup.bash'
+[4.459s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/setup.bash'
+[4.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/local_setup.zsh'
+[4.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/setup.zsh'

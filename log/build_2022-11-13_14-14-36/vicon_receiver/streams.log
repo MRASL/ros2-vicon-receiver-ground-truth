@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver -- -j8 -l8
+[0.068s] [  8%] Built target vicon_receiver__cpp
+[0.069s] [ 11%] Built target vicon_receiver__rosidl_generator_c
+[0.088s] [ 29%] Built target vicon_receiver__rosidl_typesupport_cpp
+[0.088s] [ 29%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[0.090s] [ 38%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[0.107s] [ 55%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[0.107s] [ 55%] Built target vicon_receiver__rosidl_typesupport_c
+[0.113s] [ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[0.135s] [ 64%] Built target vicon_receiver
+[0.151s] [35m[1mScanning dependencies of target vicon_client[0m
+[0.154s] make[2]: *** No rule to make target '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/vicon_receiver/communicator.cpp', needed by 'CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o'.  Stop.
+[0.154s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+[0.154s] make[1]: *** Waiting for unfinished jobs....
+[0.159s] [ 67%] Built target vicon_receiver__py
+[0.159s] make: *** [Makefile:141: all] Error 2
+[0.161s] Invoked command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/build/vicon_receiver -- -j8 -l8

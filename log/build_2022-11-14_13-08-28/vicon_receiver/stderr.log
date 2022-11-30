@@ -1,0 +1,7 @@
+[01m[K/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/publisher.cpp:6:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+    6 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/vicon_client.dir/build.make:76: CMakeFiles/vicon_client.dir/src/publisher.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

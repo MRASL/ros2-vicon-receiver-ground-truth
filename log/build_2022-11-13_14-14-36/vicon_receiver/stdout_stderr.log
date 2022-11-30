@@ -1,0 +1,15 @@
+[  8%] Built target vicon_receiver__cpp
+[ 11%] Built target vicon_receiver__rosidl_generator_c
+[ 29%] Built target vicon_receiver__rosidl_typesupport_cpp
+[ 29%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[ 38%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[ 55%] Built target vicon_receiver__rosidl_typesupport_c
+[ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[ 64%] Built target vicon_receiver
+[35m[1mScanning dependencies of target vicon_client[0m
+make[2]: *** No rule to make target '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/src/vicon_receiver/communicator.cpp', needed by 'CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 67%] Built target vicon_receiver__py
+make: *** [Makefile:141: all] Error 2

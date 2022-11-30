@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000528] (vicon_receiver) JobQueued: {'identifier': 'vicon_receiver', 'dependencies': OrderedDict()}
+[0.000769] (vicon_receiver) JobStarted: {'identifier': 'vicon_receiver'}
+[0.010813] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'cmake'}
+[0.011205] (vicon_receiver) Command: {'cmd': ['/usr/bin/cmake', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/install/vicon_receiver'], 'cwd': '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hsiutsu'), ('SSH_AGENT_PID', '1835'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/hsiutsu'), ('OLDPWD', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1685'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'hsiutsu'), ('JOURNAL_STREAM', '8:48280'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsiutsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hsiutsu-XPS-8800:@/tmp/.ICE-unix/1870,unix/hsiutsu-XPS-8800:/tmp/.ICE-unix/1870'), ('INVOCATION_ID', '4b099d2ce1cc42a6ae430ebd63d8068f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f8c9bc18_51c5_4122_8a61_b0a5283bfa5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.070672] (vicon_receiver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099798] (-) TimerEvent: {}
+[0.122842] (vicon_receiver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.126890] (vicon_receiver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199899] (-) TimerEvent: {}
+[0.200862] (vicon_receiver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.201759] (vicon_receiver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.271615] (vicon_receiver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.285200] (vicon_receiver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.285546] (vicon_receiver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.287894] (vicon_receiver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299988] (-) TimerEvent: {}
+[0.369874] (vicon_receiver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.370927] (vicon_receiver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400096] (-) TimerEvent: {}
+[0.446566] (vicon_receiver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.458031] (vicon_receiver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.458582] (vicon_receiver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.460443] (vicon_receiver) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.481247] (vicon_receiver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.481442] (vicon_receiver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500188] (-) TimerEvent: {}
+[0.527727] (vicon_receiver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.546926] (vicon_receiver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.549439] (vicon_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.554895] (vicon_receiver) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.600312] (-) TimerEvent: {}
+[0.636616] (vicon_receiver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.662940] (vicon_receiver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.700414] (-) TimerEvent: {}
+[0.729235] (vicon_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.753274] (vicon_receiver) StdoutLine: {'line': b'-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.800510] (-) TimerEvent: {}
+[0.810538] (vicon_receiver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.812693] (vicon_receiver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 5.0.2 (/opt/ros/galactic/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900623] (-) TimerEvent: {}
+[0.907116] (vicon_receiver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.907954] (vicon_receiver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.985810] (vicon_receiver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.986055] (vicon_receiver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000728] (-) TimerEvent: {}
+[1.059627] (vicon_receiver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.059902] (vicon_receiver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.100840] (-) TimerEvent: {}
+[1.121806] (vicon_receiver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.122146] (vicon_receiver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.199867] (vicon_receiver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.200958] (vicon_receiver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201077] (-) TimerEvent: {}
+[1.301289] (-) TimerEvent: {}
+[1.340990] (vicon_receiver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[1.361631] (vicon_receiver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.401398] (-) TimerEvent: {}
+[1.462122] (vicon_receiver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[1.501508] (-) TimerEvent: {}
+[1.550250] (vicon_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.556857] (vicon_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.578032] (vicon_receiver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.579017] (vicon_receiver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[1.601611] (-) TimerEvent: {}
+[1.602481] (vicon_receiver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.602717] (vicon_receiver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.602797] (vicon_receiver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.602861] (vicon_receiver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.622346] (vicon_receiver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.675450] (vicon_receiver) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.701709] (-) TimerEvent: {}
+[1.706911] (vicon_receiver) StdoutLine: {'line': b'-- Generating done\n'}
+[1.709804] (vicon_receiver) StdoutLine: {'line': b'-- Build files have been written to: /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver\n'}
+[1.718362] (vicon_receiver) CommandEnded: {'returncode': 0}
+[1.719076] (vicon_receiver) JobProgress: {'identifier': 'vicon_receiver', 'progress': 'build'}
+[1.720024] (vicon_receiver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver', '--', '-j8', '-l8'], 'cwd': '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hsiutsu'), ('SSH_AGENT_PID', '1835'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/hsiutsu'), ('OLDPWD', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1685'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/galactic/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'hsiutsu'), ('JOURNAL_STREAM', '8:48280'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hsiutsu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hsiutsu-XPS-8800:@/tmp/.ICE-unix/1870,unix/hsiutsu-XPS-8800:/tmp/.ICE-unix/1870'), ('INVOCATION_ID', '4b099d2ce1cc42a6ae430ebd63d8068f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f8c9bc18_51c5_4122_8a61_b0a5283bfa5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.763916] (vicon_receiver) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.764209] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__cpp\x1b[0m\n'}
+[1.774911] (vicon_receiver) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.801809] (-) TimerEvent: {}
+[1.902095] (-) TimerEvent: {}
+[1.998982] (vicon_receiver) StdoutLine: {'line': b'[  5%] Built target vicon_receiver__cpp\n'}
+[2.002196] (-) TimerEvent: {}
+[2.002465] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_generator_c\x1b[0m\n'}
+[2.007810] (vicon_receiver) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.008043] (vicon_receiver) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.008163] (vicon_receiver) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.040309] (vicon_receiver) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/vicon_receiver__rosidl_generator_c.dir/rosidl_generator_c/vicon_receiver/msg/detail/position__functions.c.o\x1b[0m\n'}
+[2.081905] (vicon_receiver) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libvicon_receiver__rosidl_generator_c.so\x1b[0m\n'}
+[2.102288] (-) TimerEvent: {}
+[2.112836] (vicon_receiver) StdoutLine: {'line': b'[ 20%] Built target vicon_receiver__rosidl_generator_c\n'}
+[2.122335] (vicon_receiver) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.125234] (vicon_receiver) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.202389] (-) TimerEvent: {}
+[2.236589] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.263944] (vicon_receiver) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vicon_receiver/msg/position__type_support.cpp.o\x1b[0m\n'}
+[2.266025] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.272155] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.302512] (-) TimerEvent: {}
+[2.303445] (vicon_receiver) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vicon_receiver/msg/detail/position__type_support.cpp.o\x1b[0m\n'}
+[2.355280] (vicon_receiver) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vicon_receiver/msg/detail/dds_fastrtps/position__type_support.cpp.o\x1b[0m\n'}
+[2.402617] (-) TimerEvent: {}
+[2.428543] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_c\x1b[0m\n'}
+[2.440671] (vicon_receiver) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_c.dir/rosidl_typesupport_c/vicon_receiver/msg/position__type_support.cpp.o\x1b[0m\n'}
+[2.467193] (vicon_receiver) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.502736] (-) TimerEvent: {}
+[2.503639] (vicon_receiver) StdoutLine: {'line': b'[ 41%] Built target vicon_receiver__rosidl_typesupport_c\n'}
+[2.512293] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.525746] (vicon_receiver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vicon_receiver/msg/detail/position__type_support.c.o\x1b[0m\n'}
+[2.546790] (vicon_receiver) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.556239] (vicon_receiver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libvicon_receiver__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.582478] (vicon_receiver) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.582742] (vicon_receiver) StdoutLine: {'line': b'[ 52%] Built target vicon_receiver__rosidl_typesupport_introspection_c\n'}
+[2.582875] (vicon_receiver) StdoutLine: {'line': b'[ 52%] Built target vicon_receiver__rosidl_typesupport_cpp\n'}
+[2.602850] (-) TimerEvent: {}
+[2.636134] (vicon_receiver) StdoutLine: {'line': b'[ 52%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp\n'}
+[2.702953] (-) TimerEvent: {}
+[2.795075] (vicon_receiver) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.803035] (-) TimerEvent: {}
+[2.883492] (vicon_receiver) StdoutLine: {'line': b'[ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp\n'}
+[2.896374] (vicon_receiver) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.903155] (-) TimerEvent: {}
+[3.003461] (-) TimerEvent: {}
+[3.103731] (-) TimerEvent: {}
+[3.111897] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.142588] (vicon_receiver) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vicon_receiver/msg/detail/position__type_support_c.cpp.o\x1b[0m\n'}
+[3.203846] (-) TimerEvent: {}
+[3.304227] (-) TimerEvent: {}
+[3.404571] (-) TimerEvent: {}
+[3.479531] (vicon_receiver) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.504739] (-) TimerEvent: {}
+[3.563548] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c\n'}
+[3.574524] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver\x1b[0m\n'}
+[3.584523] (vicon_receiver) StdoutLine: {'line': b'[ 64%] Built target vicon_receiver\n'}
+[3.595419] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__py\x1b[0m\n'}
+[3.595723] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_client\x1b[0m\n'}
+[3.604843] (-) TimerEvent: {}
+[3.605131] (vicon_receiver) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.634338] (vicon_receiver) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o\x1b[0m\n'}
+[3.634521] (vicon_receiver) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o\x1b[0m\n'}
+[3.704949] (-) TimerEvent: {}
+[3.805266] (-) TimerEvent: {}
+[3.905601] (-) TimerEvent: {}
+[3.992744] (vicon_receiver) StdoutLine: {'line': b'[ 73%] Built target vicon_receiver__py\n'}
+[4.002050] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__python\x1b[0m\n'}
+[4.005681] (-) TimerEvent: {}
+[4.105959] (-) TimerEvent: {}
+[4.206256] (-) TimerEvent: {}
+[4.236835] (vicon_receiver) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/vicon_receiver__python.dir/rosidl_generator_py/vicon_receiver/msg/_position_s.c.o\x1b[0m\n'}
+[4.306386] (-) TimerEvent: {}
+[4.341174] (vicon_receiver) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vicon_receiver/libvicon_receiver__python.so\x1b[0m\n'}
+[4.376559] (vicon_receiver) StdoutLine: {'line': b'[ 79%] Built target vicon_receiver__python\n'}
+[4.385631] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.385802] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.385881] (vicon_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.406487] (-) TimerEvent: {}
+[4.441807] (vicon_receiver) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.442011] (vicon_receiver) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.442853] (vicon_receiver) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.506601] (-) TimerEvent: {}
+[4.512488] (vicon_receiver) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.512737] (vicon_receiver) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.542896] (vicon_receiver) StdoutLine: {'line': b'[ 94%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext\n'}
+[4.543165] (vicon_receiver) StdoutLine: {'line': b'[ 94%] Built target vicon_receiver__rosidl_typesupport_c__pyext\n'}
+[4.562374] (vicon_receiver) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.606724] (-) TimerEvent: {}
+[4.619987] (vicon_receiver) StdoutLine: {'line': b'[ 97%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.706861] (-) TimerEvent: {}
+[4.807199] (-) TimerEvent: {}
+[4.907569] (-) TimerEvent: {}
+[5.007862] (-) TimerEvent: {}
+[5.108264] (-) TimerEvent: {}
+[5.208634] (-) TimerEvent: {}
+[5.309010] (-) TimerEvent: {}
+[5.409393] (-) TimerEvent: {}
+[5.509781] (-) TimerEvent: {}
+[5.610157] (-) TimerEvent: {}
+[5.710475] (-) TimerEvent: {}
+[5.810791] (-) TimerEvent: {}
+[5.911111] (-) TimerEvent: {}
+[6.011425] (-) TimerEvent: {}
+[6.111740] (-) TimerEvent: {}
+[6.212072] (-) TimerEvent: {}
+[6.312417] (-) TimerEvent: {}
+[6.412762] (-) TimerEvent: {}
+[6.513126] (-) TimerEvent: {}
+[6.613490] (-) TimerEvent: {}
+[6.713847] (-) TimerEvent: {}
+[6.814189] (-) TimerEvent: {}
+[6.914538] (-) TimerEvent: {}
+[7.014884] (-) TimerEvent: {}
+[7.115243] (-) TimerEvent: {}
+[7.215604] (-) TimerEvent: {}
+[7.315975] (-) TimerEvent: {}
+[7.416367] (-) TimerEvent: {}
+[7.516716] (-) TimerEvent: {}
+[7.617066] (-) TimerEvent: {}
+[7.717379] (-) TimerEvent: {}
+[7.817680] (-) TimerEvent: {}
+[7.917983] (-) TimerEvent: {}
+[8.018288] (-) TimerEvent: {}
+[8.118585] (-) TimerEvent: {}
+[8.218884] (-) TimerEvent: {}
+[8.319185] (-) TimerEvent: {}
+[8.419500] (-) TimerEvent: {}
+[8.519825] (-) TimerEvent: {}
+[8.620097] (-) TimerEvent: {}
+[8.720376] (-) TimerEvent: {}
+[8.820664] (-) TimerEvent: {}
+[8.920953] (-) TimerEvent: {}
+[9.021258] (-) TimerEvent: {}
+[9.048538] (vicon_receiver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vicon_client\x1b[0m\n'}
+[9.121380] (-) TimerEvent: {}
+[9.148248] (vicon_receiver) StderrLine: {'line': b'/usr/bin/ld: cannot find -lViconDataStreamSDK_CPP\n'}
+[9.148450] (vicon_receiver) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.149497] (vicon_receiver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/vicon_client.dir/build.make:158: vicon_client] Error 1\n'}
+[9.149715] (vicon_receiver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2\n'}
+[9.149866] (vicon_receiver) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[9.151439] (vicon_receiver) CommandEnded: {'returncode': 2}
+[9.212623] (vicon_receiver) JobEnded: {'identifier': 'vicon_receiver', 'rc': 2}
+[9.221492] (-) TimerEvent: {}
+[9.223093] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[  8%] Built target vicon_receiver__cpp
+[ 11%] Built target vicon_receiver__rosidl_generator_c
+[ 38%] Built target vicon_receiver__rosidl_typesupport_c
+[ 38%] Built target vicon_receiver__rosidl_typesupport_cpp
+[ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[ 47%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[ 64%] Built target vicon_receiver
+[35m[1mScanning dependencies of target vicon_client[0m
+[ 67%] Built target vicon_receiver__py
+[ 73%] Built target vicon_receiver__python
+[ 91%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[ 91%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o[0m

@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver -- -j8 -l8
+[0.065s] [  8%] Built target vicon_receiver__cpp
+[0.065s] [ 11%] Built target vicon_receiver__rosidl_generator_c
+[0.084s] [ 20%] Built target vicon_receiver__rosidl_typesupport_c
+[0.084s] [ 29%] Built target vicon_receiver__rosidl_typesupport_cpp
+[0.086s] [ 38%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[0.087s] [ 47%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[0.093s] [ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[0.118s] [ 64%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[0.138s] [ 64%] Built target vicon_receiver
+[0.159s] [ 67%] Built target vicon_receiver__py
+[0.169s] [ 70%] [32m[1mLinking CXX executable vicon_client[0m
+[0.184s] [ 76%] Built target vicon_receiver__python
+[0.207s] [ 88%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[0.208s] [ 88%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[0.209s] [ 94%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+[0.269s] /usr/bin/ld: cannot find -lViconDataStreamSDK_CPP
+[0.269s] collect2: error: ld returned 1 exit status
+[0.271s] make[2]: *** [CMakeFiles/vicon_client.dir/build.make:158: vicon_client] Error 1
+[0.271s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/vicon_client.dir/all] Error 2
+[0.271s] make: *** [Makefile:141: all] Error 2
+[0.273s] Invoked command in '/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver/build/vicon_receiver -- -j8 -l8
