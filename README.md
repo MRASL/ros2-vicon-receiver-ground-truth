@@ -48,7 +48,7 @@ Open a new terminal and source the project workspace:
 $ source vicon_receiver/install/setup.bash
 ```
 
-To run the program, use the [launch file template](vicon_receiver/launch/client.launch.py) provided in the package. First, open the file and edit the parameters, change the *hostname* to **192.168.1.200**, which is the IP address of the vicon server. Running `colcon build` is not needed because of the `--symlink-install` option previously used.
+To run the program, use the [launch file template](vicon_receiver/launch/client.launch.py) provided in the package. First, open the file and edit the parameters, change the `hostname` to **192.168.1.200**, which is the IP address of the vicon server. Running `colcon build` is not needed because of the `--symlink-install` option previously used.
 
 Now you can the program with
 ```
