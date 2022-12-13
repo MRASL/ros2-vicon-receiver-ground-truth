@@ -48,7 +48,7 @@ Open a new terminal and source the project workspace:
 $ source vicon_receiver/install/setup.bash
 ```
 
-To run the program, use the [launch file template](vicon_receiver/launch/client.launch.py) provided in the package. First, open the file and edit the parameters. Running `colcon build` is not needed because of the `--symlink-install` option previously used.
+To run the program, use the [launch file template](vicon_receiver/launch/client.launch.py) provided in the package. First, open the file and edit the parameters, change the *hostname* to **192.168.1.200**, which is the IP address of the vicon server. Running `colcon build` is not needed because of the `--symlink-install` option previously used.
 
 Now you can the program with
 ```
@@ -61,12 +61,12 @@ Exit the program with CTRL+C.
 
 The **ros2-vicon-receiver** package creates a topic for each segment in each subject with the pattern `namespace/subject_name/segment_name`. Information is published on the topics as soon as new data is available from the vicon client (typically at the vicon client frequency). The message type [Position](vicon_receiver/msg/Position.msg) is used.
 
-Example: suppose your namespace is the default `vicon` and you have two subjects (`subject_1` and `subject_2`) with two segments each (`segment_1` and `segment_2`). Then **ros2-vicon-receiver** will publish [Position](vicon_receiver/msg/Position.msg) messages on the following topics:
+Example: I named the robot as `create_robot` with four segments each (`create_robot_1`, `create_robot_2`, `create_robot_3`, and `create_robot_4`). Then **ros2-vicon-receiver** will publish [Position](vicon_receiver/msg/Position.msg) messages on the following topics:
 ```
-vicon/subject_1/segment_1
-vicon/subject_1/segment_2
-vicon/subject_2/segment_1
-vicon/subject_2/segment_2
+vicon/create_robot/create_robot_1
+vicon/create_robot/create_robot_2
+vicon/create_robot/create_robot_3
+vicon/create_robot/create_robot_4
 ```
 
 ## Constributors
