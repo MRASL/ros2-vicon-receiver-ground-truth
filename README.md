@@ -61,7 +61,7 @@ Exit the program with CTRL+C.
 
 The **ros2-vicon-receiver** package creates a topic for each segment in each subject with the pattern `namespace/subject_name/segment_name`. Information is published on the topics as soon as new data is available from the vicon client (typically at the vicon client frequency). The message type [Position](vicon_receiver/msg/Position.msg) is used.
 
-Example: I named the robot as `create_robot` with four segments each (`create_robot_1`, `create_robot_2`, `create_robot_3`, and `create_robot_4`). Then **ros2-vicon-receiver** will publish [Position](vicon_receiver/msg/Position.msg) messages on the following topics:
+Example: I named the object as `create_robot` with four segments each (`create_robot_1`, `create_robot_2`, `create_robot_3`, and `create_robot_4`). Then **ros2-vicon-receiver** will publish [Position](vicon_receiver/msg/Position.msg) messages on the following topics:
 ```
 vicon/create_robot/create_robot_1
 vicon/create_robot/create_robot_2
