@@ -57,10 +57,10 @@ void Publisher::publish(PositionStruct p)
     pose (2) = (atan2 (siny_cosp, cosy_cosp) * 180 / M_PI); // angle from the topdown (deg)
     
     // angle from the topdown (deg)
-    if (pose(2) >= 90 && pose(2) <=180)
-        pose(2) = pose(2) - 90; 
+    /*if (pose(2) >= 90 && pose(2) <=180)
+        pose(2) = pose(2) - 90;
     else
-        pose(2) = pose(2) + 270;
+        pose(2) = pose(2) + 270;*/
     
     // angle from the topdown (rad)
     // pose (2) = (atan2 (siny_cosp, cosy_cosp)) + (M_PI / 4); 

@@ -1,6 +1,0 @@
-{
-  "package_name": "vicon_receiver",
-  "non_idl_tuples": [
-    "/home/hsiutsu/ros2_ws/src/ros2_vicon_receiver/vicon_receiver:msg/Position.msg"
-  ]
-}
