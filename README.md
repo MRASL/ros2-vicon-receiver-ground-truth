@@ -69,7 +69,29 @@ vicon/create_robot/create_robot_3
 vicon/create_robot/create_robot_4
 ```
 ## Code modifications
-In order to get the customized data from the topic, we only save x-position, y-position, and angle from the topdown (angle with respect to the z-axis) into the `pose` matrix.
+In order to get the customized data from the topic, we only save x-position, y-position, and angle from the topdown (angle with respect to the z-axis) into the `pose` matrix. And disply it at the terminal so that we can know the latest pose of the robot. The details is specified in the [publisher.cpp](https://github.com/davidwater/ros2-vicon-receiver-ground-truth/blob/main/vicon_receiver/src/publisher.cpp).
+```
+pose(0) = p.translation[0]; // x
+    pose(1) = p.translation[1]; // y
+
+    // roll (x-axis rotation)
+    double sinr_cosp = 2 * (q3 * q0 + q1 * q2);
+    double cosr_cosp = 1 - 2 * (q0 * q0 + q1 * q1);
+    euler(0) = atan2(sinr_cosp, cosr_cosp);
+
+    // pitch (y-axis rotation)
+    double sinp = 2 * (q3 * q1 - q2 * q0);
+    if (std::abs(sinp) >= 1)
+        euler(1) = copysign(M_PI / 2, sinp); // use 90 degrees if out of range
+    else
+        euler(1) = asin(sinp);
+
+    // yaw (z-axis rotation)
+    double siny_cosp = 2 * (q3 * q2 + q0 * q1);
+    double cosy_cosp = 1 - 2 * (q1 * q1 + q2 * q2); 
+    euler(2) = (atan2 (siny_cosp, cosy_cosp) * 180 / M_PI); // angle from the topdown (deg)
+    pose (2) = (atan2 (siny_cosp, cosy_cosp) * 180 / M_PI); // angle from the topdown (deg)
+ ```
 
 ## Constributors
 **ros2-vicon-receiver** is developed by
