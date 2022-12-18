@@ -68,6 +68,8 @@ vicon/create_robot/create_robot_2
 vicon/create_robot/create_robot_3
 vicon/create_robot/create_robot_4
 ```
+## Code modifications
+In order to get the customized data from the topic, we only save x-position, y-position, and angle from the topdown (angle with respect to the z-axis) into the `pose` matrix.
 
 ## Constributors
 **ros2-vicon-receiver** is developed by
