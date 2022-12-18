@@ -69,9 +69,9 @@ vicon/create_robot/create_robot_3
 vicon/create_robot/create_robot_4
 ```
 ## Code modifications
-In order to get the customized data from the topic, we only save x-position, y-position, and angle from the topdown (angle with respect to the z-axis) into the `pose` matrix. And disply it at the terminal so that we can know the latest pose of the robot. The details is specified in the [publisher.cpp](https://github.com/davidwater/ros2-vicon-receiver-ground-truth/blob/main/vicon_receiver/src/publisher.cpp).
+In order to get the customized data from the topic, we only save x-position, y-position, and angle from the topdown (angle with respect to the z-axis) into the `pose` matrix by virtue of the [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) library. And disply it at the terminal so that we can know the latest pose of the robot. The details is specified in the [publisher.cpp](https://github.com/davidwater/ros2-vicon-receiver-ground-truth/blob/main/vicon_receiver/src/publisher.cpp).
 ```
-pose(0) = p.translation[0]; // x
+    pose(0) = p.translation[0]; // x
     pose(1) = p.translation[1]; // y
 
     // roll (x-axis rotation)
@@ -92,6 +92,33 @@ pose(0) = p.translation[0]; // x
     euler(2) = (atan2 (siny_cosp, cosy_cosp) * 180 / M_PI); // angle from the topdown (deg)
     pose (2) = (atan2 (siny_cosp, cosy_cosp) * 180 / M_PI); // angle from the topdown (deg)
  ```
+On the other hand, the [subscriber.cpp](https://github.com/davidwater/ros2-vicon-receiver-ground-truth/blob/main/vicon_receiver/src/subscriber.cpp) saved `pose` matrix as CSV file. The details can be observed in the function `topic_callback`.
+``` 
+  void topic_callback(const vicon_receiver::msg::Position::SharedPtr msg)
+    {
+        cout<<"in callback"<<endl;
+        Eigen::MatrixXd pose = Eigen::MatrixXd(1,2);
+        Eigen::MatrixXd euler = Eigen::MatrixXd(1,3);
+        double q0, q1, q2, q3;
+        q0 = msg->x_rot; // xi
+        q1 = msg->y_rot; // yj
+        q2 = msg->z_rot; // zk
+        q3 = msg->w; // w
+        pose(0) = msg->x_trans; // x
+        pose(1) = msg->y_trans; // y
+        /*Quaternionf q(q3,q0,q1,q2);
+        auto euler = q.toRotationMatrix().eulerAngles(0,1,2);*/
+        double siny_cosp = 2 * (q3 * q2 + q0 * q1);
+        double cosy_cosp = 1 - 2 * (q1 * q1 + q2 * q2);
+        euler(2) = atan2 (siny_cosp, cosy_cosp);
+        cout<<"Pose: "<<pose<<" Yaw: "<<euler(2)<<endl;
+        ofstream f("pose_" + to_string(n) + ".csv");
+        f<< pose(0)/1000 << "," << pose(1)/1000 << "," << euler(2) << endl;
+        f.close();
+        n++;
+        cin.get();
+    } 
+```
 
 ## Constributors
 **ros2-vicon-receiver** is developed by
