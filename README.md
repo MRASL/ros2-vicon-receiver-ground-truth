@@ -92,7 +92,7 @@ In order to get the customized data from the topic, we only save x-position, y-p
     euler(2) = (atan2 (siny_cosp, cosy_cosp) * 180 / M_PI); // angle from the topdown (deg)
     pose (2) = (atan2 (siny_cosp, cosy_cosp) * 180 / M_PI); // angle from the topdown (deg)
  ```
-On the other hand, the [subscriber.cpp](https://github.com/davidwater/ros2-vicon-receiver-ground-truth/blob/main/vicon_receiver/src/subscriber.cpp) saved `pose` matrix as CSV file. The details can be observed in the function `topic_callback`.
+On the other hand, the [subscriber.cpp](https://github.com/davidwater/ros2-vicon-receiver-ground-truth/blob/main/vicon_receiver/src/subscriber.cpp) saves `pose` matrix as CSV file. The details can be observed in the function `topic_callback`.
 ``` 
   void topic_callback(const vicon_receiver::msg::Position::SharedPtr msg)
     {
